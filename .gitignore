@@ -1,0 +1,27 @@
+
+*.bin
+
+.idea/
+.gradle/
+out/
+strategysim/node_modules
+strategysim/dist
+
+build/
+*.ipr
+*.iws
+*.iml
+*.ipr
+5190 Offseason 2018.ipr
+*.class
+*.ipr
+
+
+.vscode/
+
+robot/.settings
+robot/.gradle
+robot/bin
+robot/build
+
+*.code-workspace
