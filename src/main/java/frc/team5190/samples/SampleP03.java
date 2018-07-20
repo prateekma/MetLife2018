@@ -46,7 +46,7 @@ public class SampleP03 extends TimedRobot {
 
             double derivative = error - lastError;
 
-            double output = kP * error + kI * integrand + kD * derivative * kV * setpoint + Math.signum(setpoint) * kS;
+            double output = kP * error + kI * integrand + kD * derivative + kV * setpoint + Math.signum(setpoint) * kS;
             lastError = error;
 
             return output;
