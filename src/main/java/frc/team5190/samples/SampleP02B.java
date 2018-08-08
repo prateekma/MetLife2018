@@ -13,9 +13,9 @@ public class SampleP02B extends TimedRobot {
 
     @Override
     public void autonomousPeriodic() {
-        if (timer > 20000) {
+        if (System.currentTimeMillis() - timer > 20000) {
             System.out.println("Hello, world!");
-            timer = 0L;
+            timer = System.currentTimeMillis();
         }
     }
 }
