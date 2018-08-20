@@ -25,3 +25,6 @@ robot/bin
 robot/build
 
 *.code-workspace
+.classpath
+.project
+.settings/org.eclipse.buildship.core.prefs
